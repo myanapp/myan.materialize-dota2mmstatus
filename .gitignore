@@ -5,25 +5,24 @@ _site/
 .sass-cache
 
 # Ruby
-.bundle/
-.byebug_history
-.ruby-gemset
-.ruby-version
-*.gem
-Gemfile.lock
+# .bundle/
+# .byebug_history
+# .ruby-gemset
+# .ruby-version
+# *.gem
+# Gemfile.lock
 
 # Files
-.analysis
+# .analysis
 .DS_Store
-*.swp
-*~
+# *.swp
+# *~
 
 # Folders
-/vendor
-bbin/
-bin/
-coverage
-gh-pages/
-pkg/
-tmp/*
-test/
+# /vendor
+# bbin/
+# bin/
+# coverage
+# gh-pages/
+# pkg/
+# tmp/*

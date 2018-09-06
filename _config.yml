@@ -8,8 +8,8 @@ email: git@myan.app
 encoding: utf-8
 timezone: Asia/Rangoon
 
-source: build/
-destination: test/
+source: docs/
+destination: build/
 
 plugins: 
   - jekyll-admin  
@@ -22,4 +22,3 @@ plugins:
 exclude:
   - CNAME
   - LICENSE
-  - test/
