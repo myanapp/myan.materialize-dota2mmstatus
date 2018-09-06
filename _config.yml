@@ -1,19 +1,25 @@
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-# {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}
+# command >> bundle exec jekyll serve'
+# {{ page.title }} || {{ site.title }}
+# {{ site.myvariable }}
 
 title: Dota2MM
 email: git@myan.app
 
-# Build settings
-# markdown: kramdown
-# theme: minima
-plugins:
-  - jekyll-feed
+encoding: utf-8
+timezone: Asia/Rangoon
 
+source: build/
+destination: test/
+
+plugins: 
+  - jekyll-admin  
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-include-cache
 
 exclude:
-  - LICENSE
   - CNAME
+  - LICENSE
+  - test/

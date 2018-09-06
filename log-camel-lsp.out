@@ -1,0 +1,100 @@
+Setting client pid to 7859
+SERVER: changeConfig: settings -> {"xml":{},"java":{"decompiler":{"fernflower":{},"cfr":{},"procyon":null},"classPath":[],"externalDependencies":[],"home":null,"jdt":{"ls":{"vmargs":"-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication"}},"errors":{"incompleteClasspath":{"severity":"warning"}},"configuration":{"updateBuildConfiguration":"interactive","maven":{"userSettings":null}},"trace":{"server":"off"},"import":{"gradle":{"enabled":true},"maven":{"enabled":true},"exclusions":["**/node_modules/**","**/.metadata/**","**/archetype-resources/**","**/META-INF/maven/**"]},"referencesCodeLens":{"enabled":false},"signatureHelp":{"enabled":false},"implementationsCodeLens":{"enabled":false},"format":{"enabled":true,"settings":{"url":null,"profile":null},"comments":{"enabled":true},"onType":{"enabled":true}},"saveActions":{"organizeImports":false},"contentProvider":{"preferred":null},"autobuild":{"enabled":true},"completion":{"overwrite":true,"guessMethodArguments":false,"favoriteStaticMembers":["org.junit.Assert.*","org.junit.Assume.*","org.junit.jupiter.api.Assertions.*","org.junit.jupiter.api.Assumptions.*","org.junit.jupiter.api.DynamicContainer.*","org.junit.jupiter.api.DynamicTest.*"],"importOrder":["java","javax","com","org"]},"progressReports":{"enabled":true},"debug":{"logLevel":"warn","settings":{"showHex":false,"showStaticVariables":true,"showQualifiedNames":false,"maxStringLength":0,"enableHotCodeReplace":true}},"test":{"report":{"position":"sideView"}}}}
+didOpen: TextDocumentItem [
+  uri = "file:///Users/ske/Desktop/gem-gh_d2mm/src/feed.xml"
+  languageId = "xml"
+  version = 1
+  text = "<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-06T23:23:02+06:30</updated><id>http://localhost:4000/</id><title type="html">Dota2MM</title></feed>"
+]
+didClose: TextDocumentIdentifier [
+  uri = "file:///Users/ske/Desktop/gem-gh_d2mm/src/feed.xml"
+]
+SERVER: changeWatchedFiles: size -> 1
+didOpen: TextDocumentItem [
+  uri = "file:///Users/ske/Desktop/gem-gh_d2mm/src/sitemap.xml"
+  languageId = "xml"
+  version = 1
+  text = "<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n</urlset>\n"
+]
+didClose: TextDocumentIdentifier [
+  uri = "file:///Users/ske/Desktop/gem-gh_d2mm/src/sitemap.xml"
+]
+SERVER: changeWatchedFiles: size -> 1
+SERVER: changeWatchedFiles: size -> 2
+didOpen: TextDocumentItem [
+  uri = "file:///Users/ske/Desktop/gem-gh_d2mm/test/sitemap.xml"
+  languageId = "xml"
+  version = 1
+  text = "<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n</urlset>\n"
+]
+didChange: VersionedTextDocumentIdentifier [
+  version = 2
+  uri = "file:///Users/ske/Desktop/gem-gh_d2mm/test/sitemap.xml"
+]
+SERVER: changeWatchedFiles: size -> 2
+didChange: VersionedTextDocumentIdentifier [
+  version = 3
+  uri = "file:///Users/ske/Desktop/gem-gh_d2mm/test/sitemap.xml"
+]
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+didClose: TextDocumentIdentifier [
+  uri = "file:///Users/ske/Desktop/gem-gh_d2mm/test/sitemap.xml"
+]
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
+SERVER: changeWatchedFiles: size -> 2
