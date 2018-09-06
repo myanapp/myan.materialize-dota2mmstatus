@@ -1,30 +1,17 @@
-<nav class="light-blue">
-    <div style="padding-left: 20px; padding-right: 20px;"
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">{{site.title}}</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="/index.html">မူလစာမ်က္ႏွာ</a></li>
-                <li><a href="/heroes.html">ဧီးရိုးမ်ား</a></li>
-                <li><a href="/items.html">ပစၥည္းမ်ား</a></li>
-                <li><a href="/guides.html">လမ္းညႊန္</a></li>
-            </ul>
-        </div>  
-    </div>
-</nav>
+<header class="navbar">
+    <section class="navbar-section">
+        <a href="{{ '/heroes.html' | relative_url }}" class="btn btn-link">Heroes</a>
+        <a href="{{ '/items.html' | relative_urlƒ }}" class="btn btn-link">Items</a>
+    </section>
 
-<ul class="sidenav" id="mobile-demo">
-    <li><a href="sass.html">Sass</a></li>
-    <li><a href="badges.html">Components</a></li>
-<li><a href="collapsible.html">Javascript</a></li>
-    <li><a href="mobile.html">Mobile</a></li>
-</ul>
+    <section class="navbar-center">
+        <a href="{{ '/index.html' | relative_url }}">
+            <img src="/favicon.ico"" alt=" favicon-logo.ico" width="64px" height="64px">
+        </a>
+    </section>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var elems = document.querySelectorAll('.sidenav');
-        var instances = M.Sidenav.init(elems, options);
-    });
-</script>
+    <section class="navbar-section">
+        <a href="{{ '/heroes.html' | relative_url }}" class="btn btn-link">Guides</a>
+        <a href="{{ '/items.html' | relative_url }}" class="btn btn-link">Videos</a>
+    </section>
+</header>
