@@ -13,6 +13,7 @@ email: git@myan.app
 plugins:
   - jekyll-feed
 
+
 exclude:
   - LICENSE
   - CNAME
