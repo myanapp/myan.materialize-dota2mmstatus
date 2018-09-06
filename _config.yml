@@ -3,27 +3,12 @@
 # {{ site.myvariable }}
 
 title: Dota2MM
-email: git@myan.app
 
 encoding: utf-8
 timezone: Asia/Rangoon
 
 source: docs/
-destination: build/
+destination: .test/
 
 plugins: 
   - jekyll-feed
-  - jekyll-archives
-  - jekyll-redirect-from
-  - jekyll-include-cache
-
-jekyll-archives:
-  enabled: all
-  layout: 'archive'
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
-
