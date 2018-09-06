@@ -3,26 +3,5 @@ _site/
 .jekyll-cache
 .jekyll-metadata
 .sass-cache
-
-# Ruby
-# .bundle/
-# .byebug_history
-# .ruby-gemset
-# .ruby-version
-# *.gem
-# Gemfile.lock
-
-# Files
-# .analysis
+log-camel-lsp.out
 .DS_Store
-# *.swp
-# *~
-
-# Folders
-# /vendor
-# bbin/
-# bin/
-# coverage
-# gh-pages/
-# pkg/
-# tmp/*
