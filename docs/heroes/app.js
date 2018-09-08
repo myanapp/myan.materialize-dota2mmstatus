@@ -118,13 +118,13 @@ function init() {
                     role = buildHero.style,
                     _buildROLE = '';
                 
-                if (role==1) {
-                    _buildROLE = '<span class="label label-primary">CARRY</span>';
+                if (role==0) {
+                    _buildROLE = '<span class="label label-primary" style="display: inline-block">CARRY</span>';
                 } else {
-                    _buildROLE = '<span class="label label-primary">SUPPORT</span>';
+                    _buildROLE = '<span style="display: inline-block" class="label label-primary">SUPPORT</span>';
                 }
                 if (role==2) {
-                    _buildROLE += '<span class="label label-primary">CARRY</span>';
+                    _buildROLE += '<span class="label label-primary" style="display: inline-block">CARRY</span>';
                 }
 
                 var build_1 = '<div class="card heroes" --data-id="' + hero_id + '" --data-localized-name="' + localized_hero + '">';
