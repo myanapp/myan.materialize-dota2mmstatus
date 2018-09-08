@@ -61,10 +61,15 @@ function init() {
                 }
 
                 function role_position() {
-                    if (!h.isSupport) {
-                        return "Carry";
+                    switch (h.isSupport) {
+                        case "both":
+                            return 2;
+                            break;
+                        case true:
+                            return 1;
+                            break;
                     }
-                    return "Support";
+                    return 0;
                 }
 
                 function px125_imageURL() {
@@ -110,12 +115,22 @@ function init() {
                     localized_hero = buildHero.name,
                     attribute = buildHero.attr,
                     cover = buildHero.path.cover,
-                    role = buildHero.style;
+                    role = buildHero.style,
+                    _buildROLE = '';
+                
+                if (role==1) {
+                    _buildROLE = '<span class="label label-primary">CARRY</span>';
+                } else {
+                    _buildROLE = '<span class="label label-primary">SUPPORT</span>';
+                }
+                if (role==2) {
+                    _buildROLE += '<span class="label label-primary">CARRY</span>';
+                }
 
                 var build_1 = '<div class="card heroes" --data-id="' + hero_id + '" --data-localized-name="' + localized_hero + '">';
                 var build_2 = '<div class="card-body"> <div class="chip"> <img src="./assets/misc/attr-' + (attribute).toLowerCase() + '.png" class="avatar avatar-sm">' + localized_hero + '</div> </div>';
                 var build_3 = '<div class="card-image"> <img src=' + decodeURIComponent(cover) + ' class="img-responsive"> </div>';
-                var build_4 = '<div class="card-footer"> <span class="label label-primary">' + role + '</span> </div>';
+                var build_4 = '<div class="card-footer">' + _buildROLE + '</div>';
 
                 elem += build_1 + build_2 + build_3 + build_4 + '</div>';
 
