@@ -3,7 +3,7 @@ window.onload = init();
 var $_data, $_error;
 
 function init() {
-    var total_heroes = 128,
+    var total_heroes = 121,
         ajax_path = "./heroes.json",
         img125_fpath = "./assets/img/125px-",
         img125_lpath = '_Large.png',
@@ -102,7 +102,7 @@ function init() {
         inner.setAttribute('id', dat);
         body.appendChild(inner);
 
-        for (var i = 0; i < total_heroes; i++) {
+        for (var i = 0; i < (total_heroes - 6); i++) {
             try {
                 var buildHero = new_$data[i];
 
