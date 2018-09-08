@@ -70,14 +70,14 @@ function init() {
                     var hName = h.name;
                     var hNew = hName.split(' ');
                     hNew = hNew.join('_');
-                    return img125_fpath + hNew.toLowerCase() + img125_lpath;
+                    return img125_fpath + hNew + img125_lpath;
                 }
 
                 function vert_imageURL() {
                     var hName = h.name;
                     var hNew = hName.split(' ');
                     hNew = hNew.join('_');
-                    return imgVert_fpath + hNew.toLowerCase() + imgVert_lpath;
+                    return imgVert_fpath + hNew + imgVert_lpath;
                 }
             } catch (e) {
                 console.debug('scheme', e.message, 'will not be set #id_' + (i + 1));
