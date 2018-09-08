@@ -63,6 +63,12 @@
 </div>
 
 <script src="./app.js"></script>
+<script>
+    function click_onHeroCard(x) {
+        var localized = x.getAttribute('--data-localized-name');
+        alert("You clicked **" + localized + "** card!!");
+    }
+</script>
             </section>
         </div>
     </div>

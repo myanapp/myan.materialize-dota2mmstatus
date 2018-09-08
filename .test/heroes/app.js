@@ -1,10 +1,10 @@
 window.onload = init();
 
-var $_data;
+var $_data, $_error;
 
 function init() {
-    var total_heroes = 115,
-        ajax_path = "./heroes.json",
+    var total_heroes = 123,
+        ajax_path = "./test.v1.0.0.json",
         img125_fpath = "./assets/img/125px-",
         img125_lpath = '_Large.png',
         imgVert_fpath = "./assets/img/vert/",
@@ -28,7 +28,11 @@ function init() {
 
     function createAPIdata_heroes(x) {
         var heroes = JSON.parse(x);
-        $_data = [""];
+        $_data = [];
+        $_error = {
+            scheme: [],
+            build: []
+        };
 
         for (var i = 0; i <= total_heroes; i++) {
             try {
@@ -60,10 +64,15 @@ function init() {
                 }
 
                 function role_position() {
-                    if (!h.isSupport) {
-                        return "Carry";
+                    switch (h.isSupport) {
+                        case "both":
+                            return 2;
+                            break;
+                        case true:
+                            return 1;
+                            break;
                     }
-                    return "Support";
+                    return 0;
                 }
 
                 function px125_imageURL() {
@@ -80,7 +89,9 @@ function init() {
                     return imgVert_fpath + hNew + imgVert_lpath;
                 }
             } catch (e) {
-                console.debug('scheme', e.message, 'will not be set #id_' + (i + 1));
+                var err = 'no-data_' + i;
+                err = err + '=' + e.message;
+                $_error.scheme.push(err);
             }
         }
 
@@ -99,7 +110,7 @@ function init() {
         inner.setAttribute('id', dat);
         body.appendChild(inner);
 
-        for (var i = 0; i < total_heroes; i++) {
+        for (var i = 0; i < (total_heroes - 6); i++) {
             try {
                 var buildHero = new_$data[i];
 
@@ -107,17 +118,29 @@ function init() {
                     localized_hero = buildHero.name,
                     attribute = buildHero.attr,
                     cover = buildHero.path.cover,
-                    role = buildHero.style;
+                    role = buildHero.style,
+                    _buildROLE = '';
 
-                var build_1 = '<div class="card heroes" --data-id="' + hero_id + '" --data-localized-name="' + localized_hero + '">';
+                if (role == 0) {
+                    _buildROLE = '<span class="label label-primary" style="display: inline-block">CARRY</span>';
+                } else {
+                    _buildROLE = '<span style="display: inline-block" class="label label-primary">SUPPORT</span>';
+                }
+                if (role == 2) {
+                    _buildROLE += '&nbsp&nbsp&nbsp<span class="label label-primary" style="display: inline-block">CARRY</span>';
+                }
+
+                var build_1 = '<div class="card heroes" onclick="click_onHeroCard(this, ' + hero_id + ')" --data-localized-name="' + localized_hero + '">';
                 var build_2 = '<div class="card-body"> <div class="chip"> <img src="./assets/misc/attr-' + (attribute).toLowerCase() + '.png" class="avatar avatar-sm">' + localized_hero + '</div> </div>';
                 var build_3 = '<div class="card-image"> <img src=' + decodeURIComponent(cover) + ' class="img-responsive"> </div>';
-                var build_4 = '<div class="card-footer"> <span class="label label-primary">' + role + '</span> </div>';
+                var build_4 = '<div class="card-footer">' + _buildROLE + '</div>';
 
                 elem += build_1 + build_2 + build_3 + build_4 + '</div>';
 
             } catch (e) {
-                console.debug('build', e.message, 'is not built #id_' + i);
+                var err = 'no-data_' + i;
+                err = err + '=' + e.message;
+                $_error.build.push(err);
             }
         }
         document.getElementById(dat).innerHTML += elem;

@@ -127,10 +127,10 @@ function init() {
                     _buildROLE = '<span style="display: inline-block" class="label label-primary">SUPPORT</span>';
                 }
                 if (role == 2) {
-                    _buildROLE += '<span class="label label-primary" style="display: inline-block">CARRY</span>';
+                    _buildROLE += '&nbsp&nbsp&nbsp<span class="label label-primary" style="display: inline-block">CARRY</span>';
                 }
 
-                var build_1 = '<div class="card heroes" --data-id="' + hero_id + '" --data-localized-name="' + localized_hero + '">';
+                var build_1 = '<div class="card heroes" onclick="click_onHeroCard(this, ' + hero_id + ')" --data-localized-name="' + localized_hero + '">';
                 var build_2 = '<div class="card-body"> <div class="chip"> <img src="./assets/misc/attr-' + (attribute).toLowerCase() + '.png" class="avatar avatar-sm">' + localized_hero + '</div> </div>';
                 var build_3 = '<div class="card-image"> <img src=' + decodeURIComponent(cover) + ' class="img-responsive"> </div>';
                 var build_4 = '<div class="card-footer">' + _buildROLE + '</div>';
