@@ -3,44 +3,44 @@ layout: default
 title: Heroes
 ---
 
-<link rel="stylesheet" href="./style.css">
+<!-- <link rel="stylesheet" href="./style.css"> -->
 
-<div class="container">
+<div class="container" style="margin:auto;padding:20px;">
+
     <div class="columns">
         <div class="column col-12">
             <h2 class="header">Heroes</h2>
         </div>
     </div>
 
-    <div class="columns text-center">
-        <div class="card">
-            <div class="card-image">
-                <img src="./assets/img/125px-Abaddon_Large.png" class="img-responsive">
-            </div>
-            <div class="card-body">Abaddon</div>
-        </div>
+    <div class="container">
+        <style>
+            .heroes {
+                width: 6rem;
+                margin: 5px;
+            }
 
-        <div class="card">
-            <div class="card-image">
-                <img src="./assets/img/125px-Alchemist_Large.png" class="img-responsive">
-            </div>
-            <div class="card-body">Alchemist</div>
-        </div>
+            .heroes .card-body {
+                color: #525252;
+                font-size: 0.6rem;
+            }
 
-        <div class="card">
-            <div class="card-image">
-                <img src="./assets/img/125px-Ancient_Apparition_Large.png" class="img-responsive">
-            </div>
-            <div class="card-body">Ancient Apparition</div>
-        </div>
+            .heroes .card-footer {
+                color: #a9a9a9;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 0.5rem;
+            }
 
-        <div class="card">
-            <div class="card-image">
-                <img src="./assets/img/125px-Anti-Mage_Large.png" class="img-responsive">
-            </div>
-            <div class="card-body">Anti-mage</div>
-        </div>
+            .heroes .card-image img {
+                width: 6rem;
+            }
+        </style>
+
+        <main class="columns" id="node">
+
+
+        </main>
 
     </div>
 
-</div>
+    <script src="./app.js"></script>
