@@ -70,14 +70,14 @@ function init() {
                     var hName = h.name;
                     var hNew = hName.split(' ');
                     hNew = hNew.join('_');
-                    return img125_fpath + (hNew).toLowerCase() + img125_lpath;
+                    return img125_fpath + hNew + img125_lpath;
                 }
 
                 function vert_imageURL() {
                     var hName = h.name;
                     var hNew = hName.split(' ');
                     hNew = hNew.join('_');
-                    return imgVert_fpath + (hNew).toLowerCase() + imgVert_lpath;
+                    return imgVert_fpath + hNew + imgVert_lpath;
                 }
             } catch (e) {
                 console.debug('scheme', e.message, 'will not be set #id_' + (i + 1));
@@ -110,7 +110,7 @@ function init() {
                     role = buildHero.style;
 
                 var build_1 = '<div class="card heroes" --data-id="' + hero_id + '" --data-localized-name="' + localized_hero + '">';
-                var build_2 = '<div class="card-body"> <div class="chip"> <img src="./assets/misc/attr-' + attribute + '.png" class="avatar avatar-sm">' + localized_hero + '</div> </div>';
+                var build_2 = '<div class="card-body"> <div class="chip"> <img src="./assets/misc/attr-' + (attribute).toLowerCase() + '.png" class="avatar avatar-sm">' + localized_hero + '</div> </div>';
                 var build_3 = '<div class="card-image"> <img src=' + decodeURIComponent(cover) + ' class="img-responsive"> </div>';
                 var build_4 = '<div class="card-footer"> <span class="label label-primary">' + role + '</span> </div>';
 
