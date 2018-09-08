@@ -1,0 +1,72 @@
+---
+layout: default
+title: Login
+---
+
+<style>
+    .card-header {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .card-content {
+        display: block;
+        position: absolute;
+        margin: auto;
+        top: 140px;
+        left: 0;
+        right: 0;
+    }
+
+    .card-content {
+        max-width: 420px;
+        min-width: 40%;
+        padding: 40px 20px;
+        padding-bottom: 80px;
+        animation: popUp_Form 1.2s;
+        box-shadow: 0 2px 4px #aaa;
+    }
+
+    @keyframes popUp_Form {
+        0% {
+            opacity: 0;
+            top: 40px;
+        }
+
+        25% {
+            opacity: 0;
+            top: 80px;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+</style>
+
+<center>
+    <div class="card card-content">
+        <h4 class="card-header">Set Your Account ID</h4>
+        <div class="input-group">
+            <span class="input-group-addon"> OPENDOTA ID#</span>
+            <input type="text" class="form-input" placeholder="Enter your Opendota Account ID">
+            <button class="btn btn-"></button>
+        </div>
+    </div>
+
+    <script>
+        $('button').addEventListener('click', function () {
+            var input = $('input');
+var isNum = Boolean(Number(input).value);
+            switch (isNum) {
+                case true:
+                    sessionStorage.setItem('player_id', input.value)
+                    break;
+            }
+        })
+
+        function $(x) {
+            return document.querySelector(x);
+        }
+    </script>
+</center>
