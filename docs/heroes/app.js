@@ -70,7 +70,6 @@ function init() {
                     var hName = h.name;
                     var hNew = hName.split(' ');
                     hNew = hNew.join('_');
-                    alert((hNew).toLowerCase());
                     return img125_fpath + (hNew).toLowerCase() + img125_lpath;
                 }
 
