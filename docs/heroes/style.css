@@ -3,9 +3,13 @@
      cursor: pointer;
  }
 
- .heroes,
- .hereoes > img {
-     width: 7.2rem;
+ .heroes {
+    width: 7rem;
+ }
+
+ .hereoes .card-image,
+ .hereoes .card-image img {
+     width: 100%;
  }
 
  .heroes .card-body {
