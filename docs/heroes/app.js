@@ -1,9 +1,9 @@
 window.onload = init();
 
-var $_data;
+var $_data, $_error;
 
 function init() {
-    var total_heroes = 118,
+    var total_heroes = 128,
         ajax_path = "./heroes.json",
         img125_fpath = "./assets/img/125px-",
         img125_lpath = '_Large.png',
@@ -28,7 +28,8 @@ function init() {
 
     function createAPIdata_heroes(x) {
         var heroes = JSON.parse(x);
-        $_data = [""];
+        $_data = [];
+        $_error = {scheme: [], build: []};
 
         for (var i = 0; i <= total_heroes; i++) {
             try {
@@ -80,7 +81,9 @@ function init() {
                     return imgVert_fpath + hNew + imgVert_lpath;
                 }
             } catch (e) {
-                console.debug('scheme', e.message, 'will not be set #id_' + (i + 1));
+                var err = 'no-data_' + i;
+                    err = err + '=' + e.message;
+                  $_error.scheme.push(err);
             }
         }
 
@@ -117,7 +120,9 @@ function init() {
                 elem += build_1 + build_2 + build_3 + build_4 + '</div>';
 
             } catch (e) {
-                console.debug('build', e.message, 'is not built #id_' + i);
+                var err = 'no-data_' + i;
+                    err = err + '=' + e.message;
+                  $_error.build.push(err);
             }
         }
         document.getElementById(dat).innerHTML += elem;
