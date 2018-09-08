@@ -3,7 +3,7 @@ window.onload = init();
 var $_data;
 
 function init() {
-    var total_heroes = 115,
+    var total_heroes = 118,
         ajax_path = "./heroes.json",
         img125_fpath = "./assets/img/125px-",
         img125_lpath = '_Large.png',
