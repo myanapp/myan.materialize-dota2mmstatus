@@ -1,5 +1,22 @@
-main {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: auto;
-}
+ .heroes {
+     margin: 5px;
+     cursor: pointer;
+ }
+
+ .heroes,
+ .hereoes .card-image img {
+     width: 6rem;
+ }
+
+ .heroes .card-body {
+     color: #525252;
+     font-size: 0.6rem;
+     padding-left: 0px;
+     padding-right: 0px;
+ }
+
+ .heroes .card-footer {
+     color: #a9a9a9;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 0.5rem;
+ }

@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,height=device-height,maximum-scale=1.0,initial-scale=1.0">
-
     <link rel="shortcut icon" href="/favico.ico">
 
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,22 +17,19 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/touch-icon-ipad.png" />
 <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/touch-icon-iphone-retina.png" />
 <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/touch-icon-ipad-retina.png" />
-
-    <title> Heroes - Dota2MM </title>
-
     <link rel="stylesheet" href="/assets/components/spectre.css@0.5.3/spectre.min.css">
 <link rel="stylesheet" href="/assets/components/spectre.css@0.5.3/spectre-exp.min.css">
 <link rel="stylesheet" href="/assets/components/spectre.css@0.5.3/spectre-icons.min.css">
 
 
-
-    
+    <title> Heroes - Dota2MM </title>
 </head>
 
 <body>
-
-    <main class="center-align center-block centered">
-        <div class="container">
+    <div class="container">
+        <div class="columns">
+            <section class="column col-12">
+                <div class="column col-12">
     <header class="navbar">
         <section class="navbar-section">
             <a href="/heroes" class="btn btn-link">Heroes</a>
@@ -52,49 +48,24 @@
         </section>
     </header>
 </div>
+            </section>
 
-        <!-- <link rel="stylesheet" href="./style.css"> -->
+            <section class="column section">
+                <link rel="stylesheet" href="./style.css">
 
-<div class="container" style="margin:auto;padding:20px;">
+<div class="column col-12" style="margin:auto; padding:40px;">
+    <h2 class="header">Heroes</h2>
 
-    <div class="columns">
-        <div class="column col-12">
-            <h2 class="header">Heroes</h2>
+    <main class="columns" id="node">
+
+
+    </main>
+</div>
+
+<script src="./app.js"></script>
+            </section>
         </div>
     </div>
-
-    <div class="container">
-        <style>
-            .heroes {
-                width: 6rem;
-                margin: 5px;
-            }
-
-            .heroes .card-body {
-                color: #525252;
-                font-size: 0.6rem;
-            }
-
-            .heroes .card-footer {
-                color: #a9a9a9;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-size: 0.5rem;
-            }
-
-            .heroes .card-image img {
-                width: 6rem;
-            }
-        </style>
-
-        <main class="columns" id="node">
-
-
-        </main>
-
-    </div>
-
-    <script src="./app.js"></script>
-    </main>
 </body>
 
 </html>

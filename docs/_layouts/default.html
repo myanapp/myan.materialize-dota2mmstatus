@@ -4,23 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,height=device-height,maximum-scale=1.0,initial-scale=1.0">
-
     {% include meta.html %}
-
-    <title> {{ page.title }} - {{ site.title }} </title>
-
     {% include ui.html %}
-
-    
+    <title> {{ page.title }} - {{ site.title }} </title>
 </head>
 
 <body>
+    <div class="container">
+        <div class="columns">
+            <section class="column col-12">
+                {% include nav.html %}
+            </section>
 
-    <main class="center-align center-block centered">
-        {% include nav.html %}
-
-        {{ page.content }}
-    </main>
+            <section class="column section">
+                {{ page.content }}
+            </section>
+        </div>
+    </div>
 </body>
 
 </html>

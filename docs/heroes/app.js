@@ -105,15 +105,16 @@ function init() {
 
                 var hero_id = buildHero.id,
                     localized_hero = buildHero.name,
-                    hero_attr = buildHero.attr,
-                    cover_path = decodeURIComponent(buildHero.path.cover),
-                    play_style = buildHero.style;
+                    attribute = buildHero.attr,
+                    cover = buildHero.path.cover,
+                    role = buildHero.style;
 
                 var build_1 = '<div class="card heroes" --data-id="' + hero_id + '" --data-localized-name="' + localized_hero + '">';
-                var build_2 = '<div class="card-image"> <img src=' + cover_path + ' class="img-responsive"> </div>';
-                var build_3 = '<div class="card-body">' + localized_hero + '</div>' + '<div class="card-footer">' + hero_attr + ' | ' + play_style + '</div> </div>';
+                var build_2 = '<div class="card-body"> <div class="chip"> <img src="./assets/misc/attr-' + attribute + '.png" class="avatar avatar-sm">' + localized_hero + '</div> </div>';
+                var build_3 = '<div class="card-image"> <img src=' + decodeURIComponent(cover) + ' class="img-responsive"> </div>';
+                var build_4 = '<div class="card-footer"> <span class="label label-primary">' + role + '</span> </div>';
 
-                elem += build_1 + build_2 + build_3;
+                elem += build_1 + build_2 + build_3 + build_4 + '</div>';
 
             } catch (e) {
                 console.debug('build', e.message, 'is not built #id_' + i);
