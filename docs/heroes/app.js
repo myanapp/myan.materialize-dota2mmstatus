@@ -4,7 +4,7 @@ var $_data, $_error;
 
 function init() {
     var total_heroes = 123,
-        ajax_path = "./heroes.json",
+        ajax_path = "./test.v1.0.0.json",
         img125_fpath = "./assets/img/125px-",
         img125_lpath = '_Large.png',
         imgVert_fpath = "./assets/img/vert/",
@@ -29,7 +29,10 @@ function init() {
     function createAPIdata_heroes(x) {
         var heroes = JSON.parse(x);
         $_data = [];
-        $_error = {scheme: [], build: []};
+        $_error = {
+            scheme: [],
+            build: []
+        };
 
         for (var i = 0; i <= total_heroes; i++) {
             try {
@@ -87,8 +90,8 @@ function init() {
                 }
             } catch (e) {
                 var err = 'no-data_' + i;
-                    err = err + '=' + e.message;
-                  $_error.scheme.push(err);
+                err = err + '=' + e.message;
+                $_error.scheme.push(err);
             }
         }
 
@@ -117,13 +120,13 @@ function init() {
                     cover = buildHero.path.cover,
                     role = buildHero.style,
                     _buildROLE = '';
-                
-                if (role==0) {
+
+                if (role == 0) {
                     _buildROLE = '<span class="label label-primary" style="display: inline-block">CARRY</span>';
                 } else {
                     _buildROLE = '<span style="display: inline-block" class="label label-primary">SUPPORT</span>';
                 }
-                if (role==2) {
+                if (role == 2) {
                     _buildROLE += '<span class="label label-primary" style="display: inline-block">CARRY</span>';
                 }
 
@@ -136,8 +139,8 @@ function init() {
 
             } catch (e) {
                 var err = 'no-data_' + i;
-                    err = err + '=' + e.message;
-                  $_error.build.push(err);
+                err = err + '=' + e.message;
+                $_error.build.push(err);
             }
         }
         document.getElementById(dat).innerHTML += elem;
