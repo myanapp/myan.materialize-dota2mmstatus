@@ -51,7 +51,7 @@
         "name": "Mirana",
         "attr": "Agility",
         "isMelee": false,
-        "isSupport": true
+        "isSupport": "both"
     },
     "10": {
         "name": "Morphling",
@@ -123,7 +123,7 @@
         "name": "Windranger",
         "attr": "Intelligent",
         "isMelee": false,
-        "isSupport": true
+        "isSupport": "both"
     },
     "22": {
         "name": "Zeus",
@@ -135,13 +135,13 @@
         "name": "Kunkka",
         "attr": "Strength",
         "isMelee": true,
-        "isSupport": true
+        "isSupport": "both"
     },
     "25": {
         "name": "Lina",
         "attr": "Intelligent",
         "isMelee": false,
-        "isSupport": true
+        "isSupport": "both"
     },
     "26": {
         "name": "Lion",
@@ -243,7 +243,7 @@
         "name": "Wraith King",
         "attr": "Strength",
         "isMelee": true,
-        "isSupport": true
+        "isSupport": "both"
     },
     "43": {
         "name": "Death Prophet",
@@ -303,7 +303,7 @@
         "name": "Leshrac",
         "attr": "Intelligent",
         "isMelee": false,
-        "isSupport": true
+        "isSupport": "both"
     },
     "53": {
         "name": "Nature's Prophet",
@@ -429,7 +429,7 @@
         "name": "Alchemist",
         "attr": "Strength",
         "isMelee": true,
-        "isSupport": true
+        "isSupport": "both"
     },
     "74": {
         "name": "Invoker",
@@ -441,7 +441,7 @@
         "name": "Silencer",
         "attr": "Intelligent",
         "isMelee": false,
-        "isSupport": true
+        "isSupport": "both"
     },
     "76": {
         "name": "Outworld Devourer",
@@ -525,7 +525,7 @@
         "name": "Naga Siren",
         "attr": "Agility",
         "isMelee": true,
-        "isSupport": true
+        "isSupport": "both"
     },
     "90": {
         "name": "Keeper of the Light",
