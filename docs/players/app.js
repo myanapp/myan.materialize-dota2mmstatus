@@ -1,11 +1,11 @@
 window.onload = init();
 
-var $_data, $_error;
+var $data;
 
 function init() {
     var userid = accSetting('player_id');
-
-    var ajax_Path = window.atob("aHR0cHM6Ly9hcGkub3BlbmRvdGEuY29tL2FwaS9wbGF5ZXJzLw==") + userid;
+    var hosturl = 'https://api.opendota.com/api';
+    var api = {players: [hosturl, 'players', userid], matches: [hosturl, 'players', userid, 'recentmatches']};
 
     var ajax_Players = new XMLHttpRequest();
     ajax_Players.onreadystatechange = function () {
@@ -17,31 +17,26 @@ function init() {
             }
         }
     }
-    ajax_Players.open('GET', ajax_Path, true);
+    ajax_Players.open('GET', api.players.join('/'), true);
     ajax_Players.send();
 
     function build(x) {
         var player = JSON.parse(x);
-        console.log(player);
-        $_data = [];
-        $_error = {
-            scheme: [],
-            build: []
+        $data = {
+            return: []
         };
 
-        var acc_id = player.profile.account_id;
-        var steam_id = player.profile.steamid;
-        var avatar_small = player.profile.avatar;
-        var steam_url = player.profile.profileurl;
-        var local_country = player.profile.acc_loccountrycode;
-        var rank_tire = player.rank_tire;
+        $data['return'].push({
+            account_id: player.profile.steamid,
+            player_name: player.profile.personaname,
+            avatar_img: player.profile.avatarfull,
+            rank_tier: player.rank_tier,
+            steam_id: player.profile.steamid,
+            country: player.profile.loccountrycode,
+            last_seen: player.profile.last_login
+        });
 
-        var body = document.querySelector('.columns#node');
-        var pro_img = '<img src="' + player.profile.avatarfull + '">';
-        var pro_name = '<p>' + player.profile.personaname + '<br/> <br/> &nbsp &nbsp <span class="chip">(' + player.profile.name + ')</span>' + '</p>';
-        var rank = '<img src="./assets/ranks/tire/' + player.rank_tire + '".png>';
-
-        body.innerHTML = pro_img + pro_name + rank;
+        console.log(player, $data);
 
     }
 
