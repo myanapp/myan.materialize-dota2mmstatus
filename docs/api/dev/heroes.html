@@ -725,7 +725,7 @@
                 </textarea>
             </td>
             <td>
-                <textarea class="json" id="output">
+                <textarea class="json" id="output" onclick="this.select(), document.execCommand('copy');">
                 </textarea>
             </td>
 
@@ -742,19 +742,16 @@
 
             for (var i = 0, $hero = []; i < 122; i++) {
                 try {
-
-                    console.log('building api#' + i);
-
                     var api = $data[i],
                         hName = api.name,
                         isMelee = api.isMelee,
                         isSupport = api.isSupport,
                         heroAttribute = api.attr,
-                        str = "{";
+                        str = "{"; // Beginning of {{Array:Hero}}
 
                     str += "\"heroid_" + i + "\": \"" + hName + "\"";
 
-                    str += ",";
+                    str += ", \"attack_type\": {"; // End Syntax > ID || Begin Syntax > AttackType
 
                     switch (isMelee) {
                         case true:
@@ -765,7 +762,7 @@
                             break;
                     }
 
-                    str += ",";
+                    str += "}, \"primary_attribute\": {"; // End Syntax > AttackType || Begin Syntax > Attribute
 
                     switch (heroAttribute) {
                         case "Strength":
@@ -779,19 +776,29 @@
                             break;
                     }
 
-                    str += "}";
+                    str += "}, \"roles\": {"; // End Syntax > Attribute || Begin Syntax > Roles
 
-                    console.log(str);
+                    /**
+                     * FOR
+                     */
+                    str += "}"; // End Syntax > Roles
+
+                    str += "}"; // End Syntax {{Array:Hero}}
+
                     $hero.push(JSON.parse(str));
 
                 } catch (err) {
-                    $error.push(i + ':' + err.message);
-                    console.error(err.message, '@' + i);
+                    ignore = (String(err.message)).search(/cannot read property/i);
+                    if (ignore >= 0) {
+                        $error.push(i);
+                    } else {
+                        $error.push(err.message + ' @' + i);
+                    }
                 }
             }
 
             $oput.value = JSON.stringify($hero);
-
+            console.log('Total Error: ' + $error.length);
         }
     </script>
 

@@ -1,0 +1,813 @@
+[{
+    "heroid_1": "Anti-Mage",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_2": "Axe",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_3": "Bane",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_4": "Bloodseeker",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_5": "Crystal Maiden",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_6": "Drow Ranger",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_7": "Earthshaker",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_8": "Juggernaut",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_9": "Mirana",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_10": "Morphling",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_11": "Shadow Fiend",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_12": "Phantom Lancer",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_13": "Puck",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_14": "Pudge",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_15": "Razor",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_16": "Sand King",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_17": "Storm Spirit",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_18": "Sven",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_19": "Tiny",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_20": "Vengeful Spirit",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_21": "Windranger",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_22": "Zeus",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_23": "Kunkka",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_25": "Lina",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_26": "Lion",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_27": "Shadow Shaman",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_28": "Slardar",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_29": "Tidehunter",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_30": "Witch Doctor",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_31": "Lich",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_32": "Riki",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_33": "Enigma",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_34": "Tinker",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_35": "Sniper",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_36": "Necrophos",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_37": "Warlock",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_38": "Beastmaster",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_39": "Queen of Pain",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_40": "Venomancer",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_41": "Faceless Void",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_42": "Wraith King",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_43": "Death Prophet",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_44": "Phantom Assassin",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_45": "Pugna",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_46": "Templar Assassin",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_47": "Viper",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_48": "Luna",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_49": "Dragon Knight",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_50": "Dazzle",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_51": "Clockwerk",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_52": "Leshrac",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_53": "Nature's Prophet",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_54": "Lifestealer",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_55": "Dark Seer",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_56": "Clinkz",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_57": "Omniknight",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_58": "Enchantress",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_59": "Huskar",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_60": "Night Stalker",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_61": "Broodmother",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_62": "Bounty Hunter",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_63": "Weaver",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_64": "Jakiro",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_65": "Batrider",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_66": "Chen",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_67": "Spectre",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_68": "Ancient Apparition",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_69": "Doom",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_70": "Ursa",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_71": "Spirit Breaker",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_72": "Gyrocopter",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_73": "Alchemist",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_74": "Invoker",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_75": "Silencer",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_76": "Outworld Devourer",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_77": "Lycan",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_78": "Brewmaster",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_79": "Shadow Demon",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_80": "Lone Druid",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_81": "Chaos Knight",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_82": "Meepo",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_83": "Treant Protector",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_84": "Ogre Magi",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_85": "Undying",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_86": "Rubick",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_87": "Disruptor",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_88": "Nyx Assassin",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_89": "Naga Siren",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_90": "Keeper of the Light",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_91": "Io",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_92": "Visage",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_93": "Slark",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_94": "Medusa",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_95": "Troll Warlord",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_96": "Centaur Warrunner",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_97": "Magnus",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_98": "Timbersaw",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_99": "Bristleback",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_100": "Tusk",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_101": "Skywrath Mage",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_102": "Abaddon",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_103": "Elder Titan",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_104": "Legion Commander",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_105": "Techies",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_106": "Ember Spirit",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_107": "Earth Spirit",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_108": "Underlord",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_109": "Terrorblade",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_110": "Phoenix",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": true,
+    "agility": false,
+    "intelligent": false
+}, {
+    "heroid_111": "Oracle",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_112": "Winter Wyvern",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_113": "Arc Warden",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_114": "Monkey King",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_119": "Dark Willow",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}, {
+    "heroid_120": "Pangolier",
+    "isMelee": true,
+    "isRanged": false,
+    "strength": false,
+    "agility": true,
+    "intelligent": false
+}, {
+    "heroid_121": "Grimstroke",
+    "isMelee": false,
+    "isRanged": true,
+    "strength": false,
+    "agility": false,
+    "intelligent": true
+}]
