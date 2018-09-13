@@ -52,9 +52,10 @@
 
             <section class="column section">
                 <style>
-    .card-header {
-        margin-top: 20px;
-        margin-bottom: 40px;
+    input {
+        font-size: 14px;
+        letter-spacing: 15px;
+        text-align: center;
     }
 
     .card-content {
@@ -67,10 +68,10 @@
     }
 
     .card-content {
-        max-width: 420px;
-        min-width: 40%;
+        min-width: 240px;
+        max-width: 20%;
+        height: 40%;
         padding: 40px 20px;
-        padding-bottom: 80px;
         animation: popUp_Form 1.2s;
         box-shadow: 0 2px 4px #aaa;
     }
@@ -95,36 +96,49 @@
 <center>
     <div class="card card-content">
         <h4 class="card-header">Set Your Account ID</h4>
-        <div class="input-group">
-            <span class="input-group-addon"> OPENDOTA ID#</span>
-            <input type="text" class="form-input" id="inputUserAcc" placeholder="Enter your Opendota Account ID">
-        </div>
+        <main>
+            <div class="card-body">
+                <div class="has-icon-right">
+                    <input type="text" class="form-input" placeholder="OpendotaID">
+                    <i class="form-icon"></i>
+                </div>
+                <label id="error-msg">&nbsp;</label>
+        </main>
     </div>
 
+
+
     <script>
-        var EventListen = ('keypress' || 'change');
-        var inputAccId = document.getElementById('inputUserAcc');
-        inputAccId.addEventListener(EventListen, (event) => {
-            var e = event.key;
-            var l = inputAccId.length;
-            var v = localStorage.getItem('player_id');
+        $('input').addEventListener('keyup', function () {
+            var input = $('input');
+            var isNum = Boolean(Number(input.value));
+            console.log(isNum);
 
-            var x = 9;
-
-            if (v.length < 10) {
-                if (e == 0 || e == 1 || e == 2 || e == 3 || e == 4 || e == 5 || e == 6 || e == 7 || e == 8 || e == 9) {
-                    var pid = localStorage.getItem('player_id');
-                    pid += pid + '' + e;
-                    inputAccId.value = pid;
-                    inputAccId.setAttribute('class', 'form-input');
-                } else {
-                    inputAccId.setAttribute('class', 'form-input is-error');
-                    inputAccId.value = pid;
-                }
-            } else {
-                inputAccId.removeAttribute('disabled');
+            switch (isNum) {
+                case true:
+                    $('label').innerHTML = '&nbsp';
+                    $('input').setAttribute('class', 'form-input is-success');
+                    break;
+                default:
+                    $('label').innerHTML =
+                        '<code style="font-family:monocode;color:aa2a13">Available only numeric values.</code>';
+                    $('input').setAttribute('class', 'form-input is-error');
+                    return '';
             }
-        });
+
+            if ((input.value).length == 9) {
+                $('label').innerHTML = '';
+                sessionStorage.setItem('player_id', window.btoa($('input').value));
+                $('main').innerHTML = "<div class='loading'></div>";
+                setTimeout(function () {
+                    window.location.assign('/players/');
+                }, 800);
+            }
+        })
+
+        function $(x) {
+            return document.querySelector(x);
+        }
     </script>
 </center>
             </section>

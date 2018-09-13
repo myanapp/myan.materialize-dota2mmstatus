@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>API For Heroes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        textarea.json {
+            width: 320px;
+            height: 420px;
+        }
+
+        textarea.json#output {
+            height: 420px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <textarea class="json" id="api">
+        {
+                "1": {
+                    "name": "Anti-Mage",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "2": {
+                    "name": "Axe",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "3": {
+                    "name": "Bane",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "4": {
+                    "name": "Bloodseeker",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "5": {
+                    "name": "Crystal Maiden",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "6": {
+                    "name": "Drow Ranger",
+                    "attr": "Agility",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "7": {
+                    "name": "Earthshaker",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": true
+                },
+                "8": {
+                    "name": "Juggernaut",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "9": {
+                    "name": "Mirana",
+                    "attr": "Agility",
+                    "isMelee": false,
+                    "isSupport": "both"
+                },
+                "10": {
+                    "name": "Morphling",
+                    "attr": "Agility",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "11": {
+                    "name": "Shadow Fiend",
+                    "attr": "Agility",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "12": {
+                    "name": "Phantom Lancer",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "13": {
+                    "name": "Puck",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "14": {
+                    "name": "Pudge",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "15": {
+                    "name": "Razor",
+                    "attr": "Agility",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "16": {
+                    "name": "Sand King",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": true
+                },
+                "17": {
+                    "name": "Storm Spirit",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "18": {
+                    "name": "Sven",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "19": {
+                    "name": "Tiny",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "20": {
+                    "name": "Vengeful Spirit",
+                    "attr": "Agility",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "21": {
+                    "name": "Windranger",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": "both"
+                },
+                "22": {
+                    "name": "Zeus",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "23": {
+                    "name": "Kunkka",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": "both"
+                },
+                "25": {
+                    "name": "Lina",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": "both"
+                },
+                "26": {
+                    "name": "Lion",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "27": {
+                    "name": "Shadow Shaman",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "28": {
+                    "name": "Slardar",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "29": {
+                    "name": "Tidehunter",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "30": {
+                    "name": "Witch Doctor",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "31": {
+                    "name": "Lich",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "32": {
+                    "name": "Riki",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "33": {
+                    "name": "Enigma",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "34": {
+                    "name": "Tinker",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "35": {
+                    "name": "Sniper",
+                    "attr": "Agility",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "36": {
+                    "name": "Necrophos",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "37": {
+                    "name": "Warlock",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "38": {
+                    "name": "Beastmaster",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "39": {
+                    "name": "Queen of Pain",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "40": {
+                    "name": "Venomancer",
+                    "attr": "Agility",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "41": {
+                    "name": "Faceless Void",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "42": {
+                    "name": "Wraith King",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": "both"
+                },
+                "43": {
+                    "name": "Death Prophet",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "44": {
+                    "name": "Phantom Assassin",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "45": {
+                    "name": "Pugna",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "46": {
+                    "name": "Templar Assassin",
+                    "attr": "Agility",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "47": {
+                    "name": "Viper",
+                    "attr": "Agility",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "48": {
+                    "name": "Luna",
+                    "attr": "Agility",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "49": {
+                    "name": "Dragon Knight",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "50": {
+                    "name": "Dazzle",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "51": {
+                    "name": "Clockwerk",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "52": {
+                    "name": "Leshrac",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": "both"
+                },
+                "53": {
+                    "name": "Nature's Prophet",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "54": {
+                    "name": "Lifestealer",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "55": {
+                    "name": "Dark Seer",
+                    "attr": "Intelligent",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "56": {
+                    "name": "Clinkz",
+                    "attr": "Agility",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "57": {
+                    "name": "Omniknight",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": true
+                },
+                "58": {
+                    "name": "Enchantress",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "59": {
+                    "name": "Huskar",
+                    "attr": "Strength",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "60": {
+                    "name": "Night Stalker",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "61": {
+                    "name": "Broodmother",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "62": {
+                    "name": "Bounty Hunter",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "63": {
+                    "name": "Weaver",
+                    "attr": "Agility",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "64": {
+                    "name": "Jakiro",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "65": {
+                    "name": "Batrider",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "66": {
+                    "name": "Chen",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "67": {
+                    "name": "Spectre",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "68": {
+                    "name": "Ancient Apparition",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "69": {
+                    "name": "Doom",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "70": {
+                    "name": "Ursa",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "71": {
+                    "name": "Spirit Breaker",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "72": {
+                    "name": "Gyrocopter",
+                    "attr": "Agility",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "73": {
+                    "name": "Alchemist",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": "both"
+                },
+                "74": {
+                    "name": "Invoker",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "75": {
+                    "name": "Silencer",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": "both"
+                },
+                "76": {
+                    "name": "Outworld Devourer",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "77": {
+                    "name": "Lycan",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "78": {
+                    "name": "Brewmaster",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "79": {
+                    "name": "Shadow Demon",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "80": {
+                    "name": "Lone Druid",
+                    "attr": "Agility",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "81": {
+                    "name": "Chaos Knight",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "82": {
+                    "name": "Meepo",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "83": {
+                    "name": "Treant Protector",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": true
+                },
+                "84": {
+                    "name": "Ogre Magi",
+                    "attr": "Intelligent",
+                    "isMelee": true,
+                    "isSupport": true
+                },
+                "85": {
+                    "name": "Undying",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": true
+                },
+                "86": {
+                    "name": "Rubick",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "87": {
+                    "name": "Disruptor",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "88": {
+                    "name": "Nyx Assassin",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "89": {
+                    "name": "Naga Siren",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": "both"
+                },
+                "90": {
+                    "name": "Keeper of the Light",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "91": {
+                    "name": "Io",
+                    "attr": "Strength",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "92": {
+                    "name": "Visage",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "93": {
+                    "name": "Slark",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "94": {
+                    "name": "Medusa",
+                    "attr": "Agility",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "95": {
+                    "name": "Troll Warlord",
+                    "attr": "Agility",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "96": {
+                    "name": "Centaur Warrunner",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "97": {
+                    "name": "Magnus",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "98": {
+                    "name": "Timbersaw",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "99": {
+                    "name": "Bristleback",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "100": {
+                    "name": "Tusk",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "101": {
+                    "name": "Skywrath Mage",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "102": {
+                    "name": "Abaddon",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": true
+                },
+                "103": {
+                    "name": "Elder Titan",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "104": {
+                    "name": "Legion Commander",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "105": {
+                    "name": "Techies",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "106": {
+                    "name": "Ember Spirit",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "107": {
+                    "name": "Earth Spirit",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "108": {
+                    "name": "Underlord",
+                    "attr": "Strength",
+                    "isMelee": true,
+                    "isSupport": true
+                },
+                "109": {
+                    "name": "Terrorblade",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "110": {
+                    "name": "Phoenix",
+                    "attr": "Strength",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "111": {
+                    "name": "Oracle",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "112": {
+                    "name": "Winter Wyvern",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "113": {
+                    "name": "Arc Warden",
+                    "attr": "Agility",
+                    "isMelee": false,
+                    "isSupport": false
+                },
+                "114": {
+                    "name": "Monkey King",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "119": {
+                    "name": "Dark Willow",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                },
+                "120": {
+                    "name": "Pangolier",
+                    "attr": "Agility",
+                    "isMelee": true,
+                    "isSupport": false
+                },
+                "121": {
+                    "name": "Grimstroke",
+                    "attr": "Intelligent",
+                    "isMelee": false,
+                    "isSupport": true
+                }
+            }
+
+                </textarea>
+            </td>
+            <td>
+                <textarea class="json" id="output">
+                </textarea>
+            </td>
+
+        </tr>
+    </table>
+
+    <script>
+        var $error = [];
+        var $data = document.getElementById('api');
+        var $oput = document.getElementById('output');
+
+        window.onload = function () {
+            $data = JSON.parse($data.value);
+
+            for (var i = 0, $hero = []; i < 122; i++) {
+                try {
+
+                    console.log('building api#' + i);
+
+                    var api = $data[i],
+                        hName = api.name,
+                        isMelee = api.isMelee,
+                        isSupport = api.isSupport,
+                        heroAttribute = api.attr,
+                        str = "{";
+
+                    str += "\"heroid_" + i + "\": \"" + hName + "\"";
+
+                    str += ",";
+
+                    switch (isMelee) {
+                        case true:
+                            str += "\"isMelee\": true, \"isRanged\": false";
+                            break;
+                        case false:
+                            str += "\"isMelee\": false, \"isRanged\": true";
+                            break;
+                    }
+
+                    str += ",";
+
+                    switch (heroAttribute) {
+                        case "Strength":
+                            str += "\"strength\": true, \"agility\": false, \"intelligent\": false";
+                            break;
+                        case "Agility":
+                            str += "\"strength\": false, \"agility\": true, \"intelligent\": false";
+                            break;
+                        case "Intelligent":
+                            str += "\"strength\": false, \"agility\": false, \"intelligent\": true";
+                            break;
+                    }
+
+                    str += "}";
+
+                    console.log(str);
+                    $hero.push(JSON.parse(str));
+
+                } catch (err) {
+                    $error.push(i + ':' + err.message);
+                    console.error(err.message, '@' + i);
+                }
+            }
+
+            $oput.value = JSON.stringify($hero);
+
+        }
+    </script>
+
+
+</body>
+
+</html>
