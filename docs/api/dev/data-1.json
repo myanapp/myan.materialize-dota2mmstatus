@@ -1,1357 +1,2374 @@
 [{
-    "hero_id1": "Anti-Mage",
+    "id_1": "Anti-Mage",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": true,
+        "durable": true,
+        "nuker": false,
+        "escape": false
+    }
 }, {
-    "hero_id2": "Axe",
+    "id_2": "Axe",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id3": "Bane",
+    "id_3": "Bane",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": true,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id4": "Bloodseeker",
+    "id_4": "Bloodseeker",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": true,
+        "jungler": true,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id5": "Crystal Maiden",
+    "id_5": "Crystal Maiden",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": false,
+        "escape": false
+    }
 }, {
-    "hero_id6": "Drow Ranger",
+    "id_6": "Drow Ranger",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id7": "Earthshaker",
+    "id_7": "Earthshaker",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": false,
+        "escape": true
+    }
 }, {
-    "hero_id8": "Juggernaut",
+    "id_8": "Juggernaut",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": true,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id9": "Mirana",
+    "id_9": "Mirana",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id10": "Morphling",
+    "id_10": "Morphling",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id11": "Shadow Fiend",
+    "id_11": "Shadow Fiend",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id12": "Phantom Lancer",
+    "id_12": "Phantom Lancer",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id13": "Puck",
+    "id_13": "Puck",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id14": "Pudge",
+    "id_14": "Pudge",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id15": "Razor",
+    "id_15": "Razor",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": true,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id16": "Sand King",
+    "id_16": "Sand King",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id17": "Storm Spirit",
+    "id_17": "Storm Spirit",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id18": "Sven",
+    "id_18": "Sven",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id19": "Tiny",
+    "id_19": "Tiny",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id20": "Vengeful Spirit",
+    "id_20": "Vengeful Spirit",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": true,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id21": "Windranger",
+    "id_21": "Windranger",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id22": "Zeus",
+    "id_22": "Zeus",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id23": "Kunkka",
+    "id_23": "Kunkka",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": true,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id25": "Lina",
+    "id_25": "Lina",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id26": "Lion",
+    "id_26": "Lion",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": false,
+        "escape": true
+    }
 }, {
-    "hero_id27": "Shadow Shaman",
+    "id_27": "Shadow Shaman",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id28": "Slardar",
+    "id_28": "Slardar",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id29": "Tidehunter",
+    "id_29": "Tidehunter",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id30": "Witch Doctor",
+    "id_30": "Witch Doctor",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": false,
+        "escape": true
+    }
 }, {
-    "hero_id31": "Lich",
+    "id_31": "Lich",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": true,
+        "durable": false,
+        "nuker": false,
+        "escape": false
+    }
 }, {
-    "hero_id32": "Riki",
+    "id_32": "Riki",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id33": "Enigma",
+    "id_33": "Enigma",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id34": "Tinker",
+    "id_34": "Tinker",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id35": "Sniper",
+    "id_35": "Sniper",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": false,
+        "escape": false
+    }
 }, {
-    "hero_id36": "Necrophos",
+    "id_36": "Necrophos",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id37": "Warlock",
+    "id_37": "Warlock",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id38": "Beastmaster",
+    "id_38": "Beastmaster",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id39": "Queen of Pain",
+    "id_39": "Queen of Pain",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": false,
+        "escape": true
+    }
 }, {
-    "hero_id40": "Venomancer",
+    "id_40": "Venomancer",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": false,
+        "escape": false
+    }
 }, {
-    "hero_id41": "Faceless Void",
+    "id_41": "Faceless Void",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id42": "Wraith King",
+    "id_42": "Wraith King",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": false,
+        "escape": true
+    }
 }, {
-    "hero_id43": "Death Prophet",
+    "id_43": "Death Prophet",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id44": "Phantom Assassin",
+    "id_44": "Phantom Assassin",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": false,
+        "escape": true
+    }
 }, {
-    "hero_id45": "Pugna",
+    "id_45": "Pugna",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": false,
+        "escape": false
+    }
 }, {
-    "hero_id46": "Templar Assassin",
+    "id_46": "Templar Assassin",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id47": "Viper",
+    "id_47": "Viper",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id48": "Luna",
+    "id_48": "Luna",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id49": "Dragon Knight",
+    "id_49": "Dragon Knight",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id50": "Dazzle",
+    "id_50": "Dazzle",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": true,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id51": "Clockwerk",
+    "id_51": "Clockwerk",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": true,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id52": "Leshrac",
+    "id_52": "Leshrac",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": true,
+        "jungler": true,
+        "durable": true,
+        "nuker": false,
+        "escape": true
+    }
 }, {
-    "hero_id53": "Nature's Prophet",
+    "id_53": "Nature's Prophet",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": true,
+        "durable": false,
+        "nuker": false,
+        "escape": true
+    }
 }, {
-    "hero_id54": "Lifestealer",
+    "id_54": "Lifestealer",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": false,
+        "escape": true
+    }
 }, {
-    "hero_id55": "Dark Seer",
+    "id_55": "Dark Seer",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id56": "Clinkz",
+    "id_56": "Clinkz",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": true,
+        "jungler": true,
+        "durable": true,
+        "nuker": false,
+        "escape": false
+    }
 }, {
-    "hero_id57": "Omniknight",
+    "id_57": "Omniknight",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": false,
+        "jungler": false,
+        "durable": true,
+        "nuker": false,
+        "escape": false
+    }
 }, {
-    "hero_id58": "Enchantress",
+    "id_58": "Enchantress",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id59": "Huskar",
+    "id_59": "Huskar",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id60": "Night Stalker",
+    "id_60": "Night Stalker",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id61": "Broodmother",
+    "id_61": "Broodmother",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": false,
+        "escape": true
+    }
 }, {
-    "hero_id62": "Bounty Hunter",
+    "id_62": "Bounty Hunter",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id63": "Weaver",
+    "id_63": "Weaver",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": true,
+        "durable": false,
+        "nuker": false,
+        "escape": true
+    }
 }, {
-    "hero_id64": "Jakiro",
+    "id_64": "Jakiro",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": false,
+        "jungler": true,
+        "durable": false,
+        "nuker": false,
+        "escape": false
+    }
 }, {
-    "hero_id65": "Batrider",
+    "id_65": "Batrider",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": true,
+        "nuker": false,
+        "escape": true
+    }
 }, {
-    "hero_id66": "Chen",
+    "id_66": "Chen",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id67": "Spectre",
+    "id_67": "Spectre",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id68": "Ancient Apparition",
+    "id_68": "Ancient Apparition",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": true,
+        "jungler": true,
+        "durable": true,
+        "nuker": false,
+        "escape": false
+    }
 }, {
-    "hero_id69": "Doom",
+    "id_69": "Doom",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": false,
+        "escape": true
+    }
 }, {
-    "hero_id70": "Ursa",
+    "id_70": "Ursa",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id71": "Spirit Breaker",
+    "id_71": "Spirit Breaker",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id72": "Gyrocopter",
+    "id_72": "Gyrocopter",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id73": "Alchemist",
+    "id_73": "Alchemist",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id74": "Invoker",
+    "id_74": "Invoker",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id75": "Silencer",
+    "id_75": "Silencer",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": true,
+        "durable": true,
+        "nuker": false,
+        "escape": true
+    }
 }, {
-    "hero_id76": "Outworld Devourer",
+    "id_76": "Outworld Devourer",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id77": "Lycan",
+    "id_77": "Lycan",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id78": "Brewmaster",
+    "id_78": "Brewmaster",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": true,
+        "durable": true,
+        "nuker": false,
+        "escape": false
+    }
 }, {
-    "hero_id79": "Shadow Demon",
+    "id_79": "Shadow Demon",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": false,
+        "escape": false
+    }
 }, {
-    "hero_id80": "Lone Druid",
+    "id_80": "Lone Druid",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id81": "Chaos Knight",
+    "id_81": "Chaos Knight",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": false,
+        "escape": true
+    }
 }, {
-    "hero_id82": "Meepo",
+    "id_82": "Meepo",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id83": "Treant Protector",
+    "id_83": "Treant Protector",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id84": "Ogre Magi",
+    "id_84": "Ogre Magi",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id85": "Undying",
+    "id_85": "Undying",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id86": "Rubick",
+    "id_86": "Rubick",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id87": "Disruptor",
+    "id_87": "Disruptor",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": false,
+        "escape": true
+    }
 }, {
-    "hero_id88": "Nyx Assassin",
+    "id_88": "Nyx Assassin",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": true,
+        "jungler": true,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id89": "Naga Siren",
+    "id_89": "Naga Siren",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id90": "Keeper of the Light",
+    "id_90": "Keeper of the Light",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id91": "Io",
+    "id_91": "Io",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id92": "Visage",
+    "id_92": "Visage",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": false,
+        "escape": false
+    }
 }, {
-    "hero_id93": "Slark",
+    "id_93": "Slark",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": false,
+        "escape": false
+    }
 }, {
-    "hero_id94": "Medusa",
+    "id_94": "Medusa",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id95": "Troll Warlord",
+    "id_95": "Troll Warlord",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id96": "Centaur Warrunner",
+    "id_96": "Centaur Warrunner",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id97": "Magnus",
+    "id_97": "Magnus",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": false,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id98": "Timbersaw",
+    "id_98": "Timbersaw",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id99": "Bristleback",
+    "id_99": "Bristleback",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id100": "Tusk",
+    "id_100": "Tusk",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": true,
+        "nuker": false,
+        "escape": false
+    }
 }, {
-    "hero_id101": "Skywrath Mage",
+    "id_101": "Skywrath Mage",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id102": "Abaddon",
+    "id_102": "Abaddon",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id103": "Elder Titan",
+    "id_103": "Elder Titan",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id104": "Legion Commander",
+    "id_104": "Legion Commander",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id105": "Techies",
+    "id_105": "Techies",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id106": "Ember Spirit",
+    "id_106": "Ember Spirit",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id107": "Earth Spirit",
+    "id_107": "Earth Spirit",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id108": "Underlord",
+    "id_108": "Underlord",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id109": "Terrorblade",
+    "id_109": "Terrorblade",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id110": "Phoenix",
+    "id_110": "Phoenix",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": true,
         "agility": false,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": false
+    }
 }, {
-    "hero_id111": "Oracle",
+    "id_111": "Oracle",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": false,
+        "disabler": false,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id112": "Winter Wyvern",
+    "id_112": "Winter Wyvern",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": false,
         "intelligent": true
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": false,
+        "escape": true
+    }
 }, {
-    "hero_id113": "Arc Warden",
+    "id_113": "Arc Warden",
     "attack_type": {
-        "isMelee": false,
-        "isRanged": true
+        "melee": false,
+        "ranged": true
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": true,
+        "carry": false,
+        "initiator": false,
+        "disabler": true,
+        "jungler": false,
+        "durable": false,
+        "nuker": true,
+        "escape": true
+    }
 }, {
-    "hero_id114": "Monkey King",
+    "id_114": "Monkey King",
     "attack_type": {
-        "isMelee": true,
-        "isRanged": false
+        "melee": true,
+        "ranged": false
     },
     "primary_attribute": {
         "strength": false,
         "agility": true,
         "intelligent": false
     },
-    "roles": {}
+    "roles": {
+        "support": false,
+        "carry": true,
+        "initiator": true,
+        "disabler": true,
+        "jungler": false,
+        "durable": true,
+        "nuker": true,
+        "escape": true
+    }
 }]

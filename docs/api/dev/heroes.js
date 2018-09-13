@@ -2,7 +2,9 @@ var Error = [];
 var $data = document.getElementById('api');
 var $oput = document.getElementById('output');
 
-window.onload = function () {
+window.onload = init_Func();
+
+function init_Func() {
     $data = JSON.parse($data.value);
 
     for (var i = 0, $hero = []; i < 122; i++) {
@@ -10,11 +12,10 @@ window.onload = function () {
             var api = $data[i],
                 hName = api.name,
                 isMelee = api.isMelee,
-                isSupport = api.isSupport,
                 heroAttribute = api.attr,
                 str = "{"; // Beginning of {{Array:Hero}}
 
-            str += "\"hero_id" + i + "\": \"" + hName + "\"";
+            str += "\"id_" + i + "\": \"" + hName + "\"";
 
             str += ", \"attack_type\": {"; // End Syntax > ID || Begin Syntax > AttackType
 
@@ -41,45 +42,55 @@ window.onload = function () {
                     break;
             }
 
-            str += "}, \"roles\": {"; // End Syntax > Attribute || Begin Syntax > Roles
+            str += "}, \"roles\": "; // End Syntax > Attribute || Begin Syntax > Roles
 
-            /**
-             * FOR Roles
-             * [roles: support, carry, initiator, durable, disabler, jungler, nuker, escape]
+            /*
+             * FOR Roles *
+             ** [roles: support, carry, initiator, durable, disabler, jungler, nuker, escape]
              */
-            roles_func(i);
+            str += roles_func(i);
 
             function roles_func(x) {
-                try {
-                    var stats = JSON.parse(document.getElementById('heroStats').value),
-                        role = stats[x].roles;
-                    role = role.join(',');
 
-                    var supp = role.search(/support/gmi);
-                    var carr = role.search(/carry/gmi);
-                    var init = role.search(/initiator/gmi);
-                    var disb = role.search(/disable/gmi);
-                    var jung = role.search(/jungler/gmi);
-                    var durb = role.search(/durable/gmi);
-                    var nuke = role.search(/nuker/gmi);
-                    var escp = role.search(/escape/gmi);
-
-                } catch (err) {
-                    console.log(err.message);
-                    return "[]";
+                var roles = {
+                    support: tf_func('support'),
+                    carry: tf_func('carry'),
+                    initiator: tf_func('initiator'),
+                    disabler: tf_func('disable'),
+                    jungler: tf_func('jungler'),
+                    durable: tf_func('durable'),
+                    nuker: tf_func('nuker'),
+                    escape: tf_func('escape')
                 }
-                return "";
-            }
 
+                function tf_func(param) {
+                    var role = JSON.parse(document.getElementById('heroStats').value);
+                        role = role[x].roles;
+                        role = role.join('');
+                    var searchThis = role.search(eval('/' + param + '/gmi'))
+
+                    if (searchThis >= 0) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                }
+
+                var oputis = JSON.stringify(roles);
+                
+                return oputis;
+            }
 
 
             str += "}"; // End Syntax > Roles
 
-            str += "}"; // End Syntax {{Array:Hero}}
+            // str += "}"; // End Syntax {{Array:Hero}}
 
+
+            /*
+             * Final Step For Each Hero *
+             */
             $hero.push(JSON.parse(str));
-
-
         } catch (err) {
             ignore = (String(err.message)).search(/cannot read property 'name'/i);
             if (ignore >= 0) {
@@ -89,10 +100,7 @@ window.onload = function () {
             }
         }
     }
-
     $oput.value = JSON.stringify($hero);
     console.log('Total Error: ' + Error.length);
 
-}
-{
 }
